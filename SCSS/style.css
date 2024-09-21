@@ -1,0 +1,276 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background: rgb(76, 84, 124);
+  background: radial-gradient(circle, rgb(76, 84, 124) 0%, rgb(112, 136, 171) 73%, rgb(17, 42, 74) 100%);
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+body .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .container .card1 {
+  margin-top: 200px;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(circle, rgb(238, 174, 202) 38%, rgb(148, 187, 233) 83%);
+  border-radius: 32px;
+  box-shadow: 2px 2px 15px black;
+  width: 900px;
+  height: 600px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body .container .card1 .header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+body .container .card1 .header button {
+  border: 0px;
+  background-color: transparent;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 30px;
+  font-size: 16px;
+}
+body .container .card1 .header button:hover {
+  transition: all 0.3s ease;
+  color: white;
+  border: 0px;
+  background-color: transparent;
+}
+body .container .card1 .text {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+}
+body .container .card1 .text .sign {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+body .container .card1 .text .sign h1 {
+  margin-top: 50px;
+  color: black;
+}
+body .container .card1 .text .sign h3 {
+  margin-bottom: 20px;
+  color: gray;
+}
+body .container .card1 .text .sign input {
+  border: 0px;
+  border-radius: 4px;
+}
+body .container .card1 .text .sign .input {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+body .container .card1 .text .sign .input input {
+  border: 0px;
+  border-radius: 4px;
+  padding-left: 5px;
+  height: 30px;
+  width: 200px;
+  font-size: 16px;
+}
+body .container .card1 .text .sign .input-message input {
+  padding-bottom: 90px;
+  width: 410px;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+body .container .card1 .text .sign button {
+  margin-top: 10px;
+  border: 0px;
+  border-radius: 4px;
+  width: 200px;
+  height: 30px;
+  background-color: white;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 18px;
+}
+body .container .card1 .text .sign button:hover {
+  background-color: darkslateblue;
+  transition: all 0.3s ease;
+  color: white;
+}
+body .container .card1 .text .social {
+  margin-top: 40px;
+}
+body .container .card1 .text .social h1 {
+  color: black;
+  font-size: 32px;
+  margin-top: 10px;
+}
+body .container .card1 .text .social h3 {
+  font-size: 16px;
+  color: gray;
+  margin-top: 20px;
+}
+body .container .card1 .text .social h2 {
+  font-size: 16px;
+  color: gray;
+  margin-top: 10px;
+}
+body .container .card1 .text .social h4 {
+  font-size: 16px;
+  color: gray;
+  margin-top: 10px;
+}
+body .container .card1 .text .social .socialtext {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  color: purple;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media (max-width: 447px) {
+  * {
+    padding: 0px;
+    margin: 0px;
+  }
+  body {
+    background: rgb(76, 84, 124);
+    background: radial-gradient(circle, rgb(76, 84, 124) 0%, rgb(112, 136, 171) 73%, rgb(17, 42, 74) 100%);
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+  }
+  body .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  body .container .card1 {
+    margin-top: 25px;
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgb(238, 174, 202) 38%, rgb(148, 187, 233) 83%);
+    border-radius: 32px;
+    box-shadow: 2px 2px 15px black;
+    width: 430px;
+    height: 600px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  body .container .card1 .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  body .container .card1 .header button {
+    border: 0px;
+    background-color: transparent;
+    color: black;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin-top: 30px;
+    font-size: 18px;
+  }
+  body .container .card1 .header button:hover {
+    transition: all 0.3s ease;
+    color: white;
+    border: 0px;
+    background-color: transparent;
+  }
+  body .container .card1 .text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 175px;
+    padding-left: 45px;
+  }
+  body .container .card1 .text .sign {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  body .container .card1 .text .sign h1 {
+    margin-top: 20px;
+    color: black;
+  }
+  body .container .card1 .text .sign h3 {
+    margin-bottom: 20px;
+    color: white;
+  }
+  body .container .card1 .text .sign input {
+    border: 0px;
+    border-radius: 4px;
+  }
+  body .container .card1 .text .sign .input {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 5px;
+  }
+  body .container .card1 .text .sign .input input {
+    border: 0px;
+    border-radius: 4px;
+    padding-left: 5px;
+    height: 30px;
+    width: 160px;
+    font-size: 16px;
+  }
+  body .container .card1 .text .sign .input-message input {
+    padding-bottom: 90px;
+    width: 330px;
+    padding-left: 5px;
+    padding-top: 5px;
+  }
+  body .container .card1 .text .sign button {
+    margin-top: 10px;
+    border: 0px;
+    border-radius: 4px;
+    width: 337px;
+    height: 50px;
+    background-color: blueviolet;
+    color: white;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 18px;
+  }
+  body .container .card1 .text .sign button:hover {
+    background-color: darkslateblue;
+    transition: all 0.3s ease;
+    color: white;
+  }
+  body .container .card1 .text .social {
+    margin-top: 40px;
+  }
+  body .container .card1 .text .social h1 {
+    color: black;
+    font-size: 32px;
+    margin-top: 10px;
+  }
+  body .container .card1 .text .social h3 {
+    font-size: 16px;
+    color: white;
+    margin-top: 20px;
+  }
+  body .container .card1 .text .social h2 {
+    font-size: 16px;
+    color: white;
+    margin-top: 10px;
+  }
+  body .container .card1 .text .social h4 {
+    font-size: 16px;
+    color: white;
+    margin-top: 10px;
+  }
+  body .container .card1 .text .social .socialtext {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    color: white;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+}/*# sourceMappingURL=style.css.map */
